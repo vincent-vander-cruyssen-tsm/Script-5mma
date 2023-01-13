@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Match App</title>
+    <meta name="description" content="HTML match app">
+    <style>
+        body {
+            background-color: rgb(167, 212, 214);
+            color: darkblue;
+        }
+
+        header {
+            background-color: rgb(175, 139, 209);
+        }
+
+        p {
+            color: brown;
+        }
+
+        section#intro {
+            background-color: rgb(219, 160, 139);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HTML Match App!</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introductie</a></li>
+                <li><a href="#lijstjes">Lijstjes</a></li>
+                <li><a href="#formulier">Fornulier</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis nam voluptatibus enim suscipit dicta quos, esse ipsa consequatur vero ducimus hic commodi velit animi cum fugit sed aliquid qui obcaecati.</p>
+            <h2>Introductie</h2>
+            <img src="images/images4.persgroep.jpg" alt="Foto van klaslokaal" width="100">
+            <p>Klik hier voor <a href="hhtp://google.com">meer foto's van klaslokalen</a>. </p>
+        </section>
+        <section id="lijstjes">
+            <h2>Lijstjes</h2>
+            <h3>Dingen die mogen in een klaslokaal:</h3>
+            <ul>
+                <li>zwijgen</li>
+                <li>luisteren</li>
+                <li>studeren</li>
+            </ul>
+            <h3>Dingen die niet mogen in een klaslokaal</h3>
+            <ol>
+                <li>streamen</li>
+                <li>youtube</li>
+                <li>gamen</li>
+            </ol>
+        </section>
+        <section id="formulier">
+            <h2>Formulier</h2>
+            <form action="">
+                <fieldset>
+                    <legend>De muren van het lokaal zijn:</legend>
+                    <input type="radio" name="muren" value="rood">Rode muren
+                    <input type="radio" name="muren" value="blauw">Blauwe muren
+                    <input type="radio" name="muren" value="groen">Groene muren
+                </fieldset>
+                <fieldset>
+                    <legend>Wat is er in het lokaal aanwezig?</legend>
+                    <input type="checkbox" name="lokaal" value="stoelen">Er zijn stoelen
+                    <input type="checkbox" name="lokaal" value="banken">Er zijn banken
+                    <input type="checkbox" name="lokaal" value="projectors">Er zijn projectors
+                </fieldset>
+                <fieldset>
+                    <legend>Commentaar</legend>
+                    <textarea name="commentaar" id="" cols="20" rows="4"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Leeftijd</legend>
+                    <input type="number" name="" id="" min="1" max="99">
+                </fieldset>
+                <fieldset>
+                    <legend>Hoe heeft u van ons gehoord?</legend>
+
+                    <select name="enquete" id="">
+                        <option value="vrienden">Via vrienden</option>
+                        <option value="ads">Advertentie</option>
+
+                    </select>
+                </fieldset>
+
+                <button type="submit">Indienen</button>
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>Copyright Vander Cruyssen</p>
+    </footer>
+
+</body>
+
+</html>
