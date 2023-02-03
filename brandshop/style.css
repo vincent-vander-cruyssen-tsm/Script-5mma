@@ -1,0 +1,74 @@
+:root {
+    font-size: 16px;
+}
+
+/* instellingen */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(213, 225, 221);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: rgb(183, 76, 76);
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: black;
+}
+
+/* hoofding */
+
+header {
+    padding: 1.25rem;
+    background-color: rgb(146, 207, 202);
+}
+
+header img {
+    width: 3rem;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    padding: 20px;
+    text-decoration-line: none;
+}
+
+header nav a:hover {
+    text-decoration-line: underline;
+}
+
+header input {
+    width: 7rem;
+    padding: 0.5rem;
+}
+
+header i {
+    padding-left: 2ch;
+    font-size: 1.2rem;
+    color: rgb(165, 42, 42);
+}
+
+/* vormgeving classes */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
